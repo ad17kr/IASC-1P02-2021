@@ -1,0 +1,15 @@
+body{
+  color: black;
+  background-color: green;
+}
+
+#wrapper{
+  width: 750px;
+  margin:0 auto;
+  background-color: red;
+  padding-top: 1px;
+  text-align: center;
+  position: relative;
+  ;
+
+}
