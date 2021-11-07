@@ -1,0 +1,240 @@
+/*Site Background*/
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+/*Header*/
+.header-background {
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo img{
+    height: 20%;
+    width: 20%;
+}
+.header-center {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header-right {
+    display: flex;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-wrapper > .header-right > div {
+    margin-right: 20px;
+}
+
+/*video*/
+#video img{
+    height: 400px;
+    width: 100%;
+}
+
+.main{
+    color: blue;
+}
+
+
+#header1 {
+    background-color: red;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*list text*/
+#list1 {
+    display: inline-block;
+    padding-left: 41%;
+    font-size: x-large;
+}
+
+#list2 {
+    display: inline-block;
+    font-size: x-large;
+}
+
+/*button*/
+.box1 {
+    margin: auto;
+    width: 10%;
+    padding: 5px;
+    background-color: red;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: left;
+}
+
+#button{
+    margin: auto;
+    width: 15%;
+    background-color: red;
+}
+
+/*2x2 grid*/
+.header2 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.container3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+   }
+   
+#one {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    margin:auto;
+}
+   
+#two {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    margin:auto;
+}
+   
+#three {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    margin:auto;
+}
+   
+#four {
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    margin:auto;
+}
+
+/*1x3 grid*/
+.header3 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.container4 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#five {
+    background-color: red;
+    width: 300px;
+    height: 550px;
+}
+   
+#six  {
+    background-color: red;
+    width: 300px;
+    height: 550px;
+    margin:auto;
+}
+   
+#seven {
+    background-color: red;
+    width: 300px;
+    height: 550px;
+    margin:auto;
+}
+
+/*footer*/
+.header4 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.container5 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#eight {
+    grid-column: 3 / span 3;
+    grid-row: 1;
+    background-color: red;
+    width: 300px;
+    height: 350px;
+}
+   
+#nine  {
+    grid-column: 6 / span 3;
+    grid-row: 1;
+    background-color: red;
+    width: 500px;
+    height: 250px;
+    margin-bottom: auto;
+}
+   
+#ten {
+    grid-column: 3 / span 3;
+    grid-row: 2;
+    background-color: red;
+    width: 300px;
+    height: 70px;
+}
+
+#eleven  {
+    grid-column: 6 / span 2;
+    grid-row: 1;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    margin-top: auto;
+}
+   
+#twelve {
+    grid-column: 7 / span 2;
+    grid-row: 1;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    margin-top: auto;
+}
+
+#thirteen {
+    grid-column: 8 / span 2;
+    grid-row: 1;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    margin-top: auto;
+}
